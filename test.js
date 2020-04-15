@@ -27,7 +27,7 @@ let payload = {
 };
 
 // Run runMiddleware
-rc.runMiddleware("/bot/msg", payload, app)
+rc.runMiddleware("/bot/msg", payload)
   .then((resp) => {
     console.log({ resp });
   })

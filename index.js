@@ -26,9 +26,12 @@ routeCaller.prototype.runMiddleware = function runMiddleware(path, payload) {
       routeIndex = routesArray.lastIndexOf(path);
 
     if (routeIndex > -1) {
-      payload = Object.assign(payload, {
-        method: self.loadedRoutes[routeIndex].methods[0],
-      });
+      payload = Object.assign(
+        {
+          method: self.loadedRoutes[routeIndex].methods[0],
+        },
+        payload
+      );
 
       self.app.runMiddleware(path, payload, function callback(
         statusCode,
