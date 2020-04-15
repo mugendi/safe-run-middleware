@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "express-list-endpoints": "^4.0.1",
+    "run-middleware": "^0.9.10"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "name": "safe-run-middleware",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "description": "This module uses the awesome run-middleware but wraps functions to ensure that routes called exist and that the correct method is used in calling the routes. ",
+  "author": "Anthony Mugendi <ngurumugz@gmail.com>",
+  "repository": "git@github.com:mugendi/safe-run-middleware.git"
+}
