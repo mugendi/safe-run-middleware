@@ -1,7 +1,7 @@
 #NodeJS safe-run-middleware
 
 [![npm](https://img.shields.io/npm/dt/run-middleware.svg?maxAge=2592000)](https://www.npmjs.com/package/safe-run-middleware)
-[![npm version](https://badge.fury.io/js/safe-run-middleware.svg)](https://badge.fury.io/js/run-middleware)
+[![npm version](https://badge.fury.io/js/safe-run-middleware.svg)](https://badge.fury.io/js/safe-run-middleware)
 
 This module is an extension of [run-middleware](https://www.npmjs.com/package/run-middleware) with the following key changes.
 1. It returns a promise 
